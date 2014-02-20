@@ -1,10 +1,10 @@
 
 try {
-  var bind = require('bind');
-  var type = require('type');
+  var bind = require('component-bind');
+  var type = require('component-type');
 } catch (e) {
-  var bind = require('bind-component');
-  var type = require('type-component');
+  // commented out by npm-component: var bind = require('bind-component');
+  // commented out by npm-component: var type = require('type-component');
 }
 
 module.exports = function (obj) {

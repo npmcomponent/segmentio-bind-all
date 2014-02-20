@@ -1,13 +1,15 @@
 {
-  "name": "bind-all",
-  "repository": "https://github.com/segmentio/bind-all.git",
+  "name": "segmentio-bind-all",
+  "description": "Binds all functions to an object",
   "version": "0.0.2",
+  "keywords": [
+    "bind",
+    "bindAll",
+    "bind-all"
+  ],
   "dependencies": {
-    "bind-component": "0.0.1",
-    "type-component": "0.0.1"
+    "component-bind": "git://github.com/npmcomponent/component-bind.git",
+    "component-type": "git://github.com/npmcomponent/component-type.git"
   },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
-  }
+  "license": "MIT"
 }
